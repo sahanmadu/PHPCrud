@@ -1,0 +1,48 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+}
+#left{
+	width: 300px;
+	height: 800px;
+	background-color: #42403a;
+	display: inline;
+	float: left;
+}
+#container{
+	width: 1049px;
+	height: 800px;
+	background-color:#e6e1d3 ;
+	display: inline;
+	float: right;
+}
+#header{
+	width: 1049px;
+	height: 150px;
+	display: inline-flex;
+	background-image: url(images/adminHeader4.jpg);
+}
+.btn-outline-*{
+	height: 30px;
+	width: 80px;
+	color: white;
+}
+.btn btn-outline-primary{
+	float: right;
+	height: 20px;
+}
+#Alogo{
+	display: inline;
+	float: right;
+
+}
+#logo{
+	display: inline;
+	float: left;
+h4.welcome{
+	display: inline;
+	color: white;
+	font-family: 'Baloo Chettan 2', cursive; 
+}

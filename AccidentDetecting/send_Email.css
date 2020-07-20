@@ -1,0 +1,106 @@
+body{
+	margin:0;
+	padding:0;
+	text-align: center;
+	background:url(images/bImage4.png);
+	background-size:1600px 1200px; 
+	background-repeat:no-repeat;
+	background-position:center;
+	font-family: sans-serif; 
+	
+	 
+}
+.Contact-title{
+	margin-top: 100px;
+	color: 	#050505;
+	text-transform: uppercase;
+	transform: all 4s ease-in-out;
+
+}
+.Contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+
+}
+.Contact-title h2{
+	font-size: 16px;
+
+}
+form{
+	margin-top:50px;
+	transition: all 4s ease-in-out;
+
+}
+Contact-form{
+	color: 	#050505;
+}
+.form-control{
+	width:600px;
+	background:transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid  gray;
+	color: #050505;
+	font-size: 18px;
+	margin-bottom: 16px;
+
+}
+
+/* IMGE SLIDE*/
+
+.content{
+  height: 400px;
+  width: 750px;
+  position: center;
+}
+.content .images{
+  height: 100%;
+  width: 100%;
+  
+}
+/* image centered*/
+.content .images img{
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  left: 400px;
+  top: 320px;
+ 
+}
+.btm-slides{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+/* side arrows*/
+.btm-slides span{
+  height: 15px;
+  width: 100px;
+  border: 2px solid white;
+  margin: 0 3px;
+  cursor: pointer;
+}
+/* side arrows size*/
+.sliders{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  cursor: pointer;
+  border: 5px solid black;
+  background: rgba(255,255,255,0.1);
+}
+.sliders:hover{
+  background: rgba(255,255,255,0.1);
+}
+.right{
+  right: 0;
+}
+/* side arrows colour*/
+.sliders span{
+  line-height: 80px;
+  font-size: 35px;
+  color: black;
+}
